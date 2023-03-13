@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script>
+        function suma_lista(lista) {
+            let total = 0;
+            let i = 0;
+            while (i < lista.length) {
+                total = total + lista[i];
+                i = i + 1;
+            }
+            return total;
+        }
+
+
+        function suma(x, y, z) {
+            total = x + y + z;
+            return total;
+        }
+    </script>
+
+</head>
+
+<body>
+    <script>
+        console.log(suma(3,4,5));
+        console.log(suma_lista([1,2,84,5]));
+
+    </script>
+</body>
+
+</html>
